@@ -4,7 +4,7 @@ import com.second.hand.trading.server.model.OrderModel;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
-
+//a
 @Mapper
 public interface OrderDao {
     int deleteByPrimaryKey(Long id);
