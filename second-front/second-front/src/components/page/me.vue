@@ -22,7 +22,7 @@
                             <div class="user-info-details-text-nickname">{{userInfo.nickname}}</div>
                             <div class="user-info-details-text-time">{{userInfo.signInTime}} 加入平台</div>
                             <div class="user-info-details-text-edit">
-                                <el-button type="primary" plain @click="userInfoDialogVisible = true">编辑个人信息</el-button>
+                                <el-button type="primary" plain @click="userInfoDialogVisible = true">编辑个人信息\</el-button>
                             </div>
                             <el-dialog
                                     @close="finishEdit"
