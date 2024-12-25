@@ -4,7 +4,7 @@
             <div class="login-body">
                 <div class="login-title" @click="toIndex" >校园交易平台</div>
                 <el-form ref="form" :model="userForm">
-                    <el-input placeholder="请输入账号..." v-model="userForm.accountNumber" class="login-input">
+                    <el-input placeholder="请输入账号.." v-model="userForm.accountNumber" class="login-input">
                         <template slot="prepend"> 
                             <div class="el-icon-user-solid"></div>
                         </template>
