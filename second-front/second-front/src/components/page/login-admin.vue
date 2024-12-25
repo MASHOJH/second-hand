@@ -17,7 +17,7 @@
                     </el-input>
                     <div class="login-submit" style="margin-top: 20px"  >
                         <el-button type="primary" @click="login">登录</el-button>
-                        <el-button type="warning" autocomplete="off" @click="$router.push('/login')" style="margin-left: 20px">返回前台</el-button>
+                        <el-button type="warning" autocomplete="off" @click="$router.push('/login')" style="margin-left: 20px">返回前台\</el-button>
                     </div>
                 </el-form>
             </div>
