@@ -11,7 +11,7 @@ Vue.prototype.$api = api;
 
 let globalData={
     userInfo:{
-        nickname:''
+        nickname:'q'
     }
 };
 let sta={
