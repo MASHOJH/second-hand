@@ -4,7 +4,7 @@
             <div class="login-body">
                 <div class="login-title">后台管理</div>
                 <el-form ref="form" :model="userForm">
-                    <el-input placeholder="请输入管理员账号" v-model="userForm.accountNumber" class="login-input">
+                    <el-input placeholder="输入管理员账号" v-model="userForm.accountNumber" class="login-input">
                         <template slot="prepend">
                             <div class="el-icon-user-solid"></div>
                         </template>
