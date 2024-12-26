@@ -9,7 +9,7 @@
                             <div class="el-icon-user-solid"></div>
                         </template>
                     </el-input> 
-                    <el-input placeholder="请输入密码..." v-model="userForm.userPassword" class="login-input"
+                    <el-input placeholder="请输入密码.." v-model="userForm.userPassword" class="login-input"
                               @keyup.enter.native="login"  show-password>
                         <template slot="prepend">
                             <div class="el-icon-lock"></div>
