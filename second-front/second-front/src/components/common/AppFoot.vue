@@ -10,7 +10,7 @@
     }
 </script>
 
-<style scoped>
+<style scoped>是
     .foot-container {
         width: 100%;
         display: flex;
