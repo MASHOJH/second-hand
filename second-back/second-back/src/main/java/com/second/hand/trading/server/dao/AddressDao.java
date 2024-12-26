@@ -4,7 +4,7 @@ import com.second.hand.trading.server.model.AddressModel;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
-
+ 
 @Mapper
 public interface AddressDao {
     int deleteByPrimaryKeyAndUser(Long id,Long userId);
